@@ -25,7 +25,7 @@ I am broadly interested in problems of representation learning, and understandin
 In doing so I have been looking into the relationship between pre-training and continual / transfer learning in deep neural networks,
 and specifically the role of over-parameterization and interpolation in these areas.
 
-Additionally, I'm interested in studying the relationship between finite-width networks and their corresponding infinite-width limits in the aforementioned settings.
+Additionally, I'm interested in studying how finite-width networks and their corresponding infinite-width limits behave in the aforementioned settings.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
