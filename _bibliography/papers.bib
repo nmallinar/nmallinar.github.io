@@ -1,6 +1,30 @@
 ---
 ---
 
+@inproceedings{mallinar-etal-2022-tempered,
+    title = "Benign, tempered, or catastrophic: A taxonomy of overfitting",
+    author="Mallinar, Neil and Simon, James B and Abedsoltan, Amirhesam and Pandit, Parthe and Belkin, Mikhail and Nakkiran Preetum",
+    booktitle = "36th Conference on Neural Information Processing Systems (NeurIPS 2022)",
+    month = jul,
+    year = "2022",
+    address = "Online",
+    url = "https://arxiv.org/pdf/2207.06569",
+    abstract = "The practical success of overparameterized neural networks has motivated the recent scientific study of interpolating methods, which perfectly fit their training data. Certain interpolating methods, including neural networks, can fit noisy training data without catastrophically bad test performance, in defiance of standard intuitions from statistical learning theory. Aiming to explain this, a body of recent work has studied $\textit{benign overfitting}$, a phenomenon where some interpolating methods approach Bayes optimality, even in the presence of noise. In this work we argue that while benign overfitting has been instructive and fruitful to study, many real interpolating methods like neural networks $\textit{do not fit benignly}$: modest noise in the training set causes nonzero (but non-infinite) excess risk at test time, implying these models are neither benign nor catastrophic but rather fall in an intermediate regime. We call this intermediate regime $\textit{tempered overfitting}$, and we initiate its systematic study. We first explore this phenomenon in the context of kernel (ridge) regression (KR) by obtaining conditions on the ridge parameter and kernel eigenspectrum under which KR exhibits each of the three behaviors. We find that kernels with powerlaw spectra, including Laplace kernels and ReLU neural tangent kernels, exhibit tempered overfitting. We then empirically study deep neural networks through the lens of our taxonomy, and find that those trained to interpolation are tempered, while those stopped early are benign. We hope our work leads to a more refined understanding of overfitting in modern learning",
+    selected = {true}
+}
+
+
+@article{carrell-etal-2022-calibration,
+  title="The Calibration Generalization Gap",
+  author="Carrell, Annabelle and Mallinar, Neil and Lucas, James and Nakkiran, Preetum",
+  journal="2022 International Conference on Machine Learning (Workshop on Distribution-Free Uncertainty Quantification)",
+  abstract="Calibration is a fundamental property of a good predictive model: it requires that the model predicts correctly in proportion to its confidence. Modern neural networks, however, provide no strong guarantees on their calibration -- and can be either poorly calibrated or well-calibrated depending on the setting. It is currently unclear which factors contribute to good calibration (architecture, data augmentation, overparameterization, etc), though various claims exist in the literature. We propose a systematic way to study the calibration error: by decomposing it into (1) calibration error on the train set, and (2) the calibration generalization gap. This mirrors the fundamental decomposition of generalization. We then investigate each of these terms, and give empirical evidence that (1) DNNs are typically always calibrated on their train set, and (2) the calibration generalization gap is upper-bounded by the standard generalization gap. Taken together, this implies that models with small generalization gap (|Test Error - Train Error|) are well-calibrated. This perspective unifies many results in the literature, and suggests that interventions which reduce the generalization gap (such as adding data, using heavy augmentation, or smaller model size) also improve calibration. We thus hope our initial study lays the groundwork for a more systematic and comprehensive understanding of the relation between calibration, generalization, and optimization.",
+  url="https://arxiv.org/pdf/2210.01964",
+  month=oct,
+  year="2022",
+  selected = {true}
+}
+
 @inproceedings{rennie-etal-2020-unsupervised,
     title = "Unsupervised Adaptation of Question Answering Systems via Generative Self-training",
     author = "Rennie, Steven  and

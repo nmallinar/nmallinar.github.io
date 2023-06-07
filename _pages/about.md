@@ -19,13 +19,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm pursuing my PhD at UC San Diego, advised by <a href="http://misha.belkin-wang.org/">Misha Belkin</a>.
+I am also a Research Fellow at The Broad Institute where I am adivsed by <a href="https://www.broadinstitute.org/bios/anthony-philippakis-0">Anthony Philippakis</a>.
+For a full list of publications, see <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&hl=en&user=6ogHsLsAAAAJ&sortby=pubdate&authuser=1">Google Scholar</a>.
 
-I am broadly interested in problems of representation learning, and understanding what it means to learn "good" representations.
-
-In doing so I have been looking into the relationship between pre-training and continual / transfer learning in deep neural networks,
-and specifically the role of over-parameterization and interpolation in these areas.
-
-Additionally, I'm interested in studying how finite-width networks and their corresponding infinite-width limits behave in the aforementioned settings.
+My research focuses on understanding deep learning, both theoretically and practically. In the past, I studied: benign overfitting in neural networks and kernel regression; and calibration in neural networks as it relates to generalization. My current research focuses on spectral properties of De Bruijn graphs, high-dimensional linear regression under distribution shifts, and, most recently, studying phenomena such as grokking and in-context learning with transformers, fully connected networks, and kernels.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
