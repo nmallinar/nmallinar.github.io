@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-description: UC San Diego. Halıcıoğlu Data Science Institute. <a href="mailto:nmallina@ucsd.edu">nmallina@ucsd.edu</a>.
+description: UC San Diego. Halıcıoğlu Data Science Institute (HDSI). <a href="mailto:nmallina@ucsd.edu">nmallina@ucsd.edu</a>.
 
 profile:
   align: right
-  image: neilmallinar.jpg
+  image: neil_elfin2.jpg
   address: >
-    <p>Currently seeking an office :)</p>
-    <p>10100 Hopkins Dr</p>
-    <p>San Diego, CA 92093</p>
+    <p>3rd floor</p>
+    <p>HDSI</p>
+    <p>La Jolla, CA 92093</p>
 
 mylife: true # includes my life
 news: true  # includes a list of news items
@@ -19,11 +19,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm pursuing my PhD at UC San Diego, advised by <a href="http://misha.belkin-wang.org/">Misha Belkin</a>.
-I am also a Research Fellow at The Broad Institute where I am adivsed by <a href="https://www.broadinstitute.org/bios/anthony-philippakis-0">Anthony Philippakis</a>.
+I am also a PhD Research Fellow at [The Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) of The Broad Institute where I was adivsed by <a href="https://www.gv.com/team/anthony-philippakis">Anthony Philippakis</a> (now a General Partner at GV).
 For a full list of publications, see <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&hl=en&user=6ogHsLsAAAAJ&sortby=pubdate&authuser=1">Google Scholar</a>.
 
-My research focuses on understanding deep learning, both theoretically and practically. In the past, I studied: benign overfitting in neural networks and kernel regression; and calibration in neural networks as it relates to generalization. My current research focuses on spectral properties of De Bruijn graphs, high-dimensional linear regression under distribution shifts, and, most recently, studying phenomena such as grokking and in-context learning with transformers, fully connected networks, and kernels.
+My research focuses on understanding deep learning, both theoretically and practically. In the past, I studied: benign overfitting in neural networks and kernel regression; calibration in neural networks as it relates to generalization; spectral properties of the de Bruijn graph Laplacian; high-dimensional covariate shifts; and emergent phenomena in non-neural models through grokking modular arithmetic.
 
+I am currently researching topics on fundamentals of feature learning, foundation model training and evaluation (through the lens of single-cell data), scaling laws and feature alignment, and multi-class learning in kernels and neural networks.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

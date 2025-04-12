@@ -5,4 +5,4 @@ date: 2016-05-18
 inline: true
 ---
 
-Got my Bachelor's from Johns Hopkins University
+Got my B.S. from Johns Hopkins University in Computer Science and Mathematics
