@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: UC San Diego. Halıcıoğlu Data Science Institute. <a href="mailto:nmallina@ucsd.edu">nmallina@ucsd.edu</a>.
+subtitle: UC San Diego. Halıcıoğlu Data Science Institute. <a href="mailto:nmallina@ucsd.edu">nmallina@ucsd.edu</a>, <a href="mailto:nmallinar@gmail.com">nmallinar@gmail.com</a>.
 
 profile:
   align: right
@@ -26,6 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+*I am currently on the job market for full-time positions!*
 
 I'm pursuing my PhD at UC San Diego, advised by <a href="http://misha.belkin-wang.org/">Misha Belkin</a>.
 I am also a PhD Research Fellow at [The Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) of The Broad Institute where I was adivsed by <a href="https://www.gv.com/team/anthony-philippakis">Anthony Philippakis</a> (now a General Partner at GV).

@@ -2,14 +2,15 @@
 ---
 
 @article{Mallinar-etal-2025-scalable,
-  title="A Scalable Framework for Evaluating Health Language Models",
+  title={A Scalable Framework for Evaluating Health Language Models},
   author={Mallinar, Neil and A Ali Heydari and Xin Liu and Anthony Z Faranesh and Brent Winslow and Nova Hammerquist and Benjamin Graef and Cathy Speed and Mark Malhotra and Shwetak Patel and Javier L Prieto and Daniel McDuff and Ahmed A Metwally},
   journal="arXiv preprint",
+  url={https://arxiv.org/abs/2503.23339},
+  arxiv={2503.23339},
   abstract={Large language models (LLMs) have emerged as powerful tools for analyzing complex datasets. Recent studies demonstrate their potential to generate useful, personalized responses when provided with patient-specific health information that encompasses lifestyle, biomarkers, and context. As LLM-driven health applications are increasingly adopted, rigorous and efficient one-sided evaluation methodologies are crucial to ensure response quality across multiple dimensions, including accuracy, personalization and safety. Current evaluation practices for open-ended text responses heavily rely on human experts. This approach introduces human factors and is often cost-prohibitive, labor-intensive, and hinders scalability, especially in complex domains like healthcare where response assessment necessitates domain expertise and considers multifaceted patient data. In this work, we introduce Adaptive Precise Boolean rubrics\: an evaluation framework that streamlines human and automated evaluation of open-ended questions by identifying gaps in model responses using a minimal set of targeted rubrics questions. Our approach is based on recent work in more general evaluation settings that contrasts a smaller set of complex evaluation targets with a larger set of more precise, granular targets answerable with simple boolean responses. We validate this approach in metabolic health, a domain encompassing diabetes, cardiovascular disease, and obesity. Our results demonstrate that Adaptive Precise Boolean rubrics yield higher inter-rater agreement among expert and non-expert human evaluators, and in automated assessments, compared to traditional Likert scales, while requiring approximately half the evaluation time of Likert-based methods. This enhanced efficiency, particularly in automated evaluation and non-expert contributions, paves the way for more extensive and cost-effective evaluation of LLMs in health.},
-  url="https://arxiv.org/abs/2503.23339",
   month=mar,
   year="2025",
-  selected = {true}
+  selected = {false}
 }
 
 @article{mallinar2024emergencenonneuralmodelsgrokking,
@@ -19,8 +20,11 @@
       year={2024},
       month=oct,
       selected={true},
-      journal="arXin preprint",
+      journal="ICML 2025",
       url={https://arxiv.org/abs/2407.20199},
+      arxiv={2407.20199},
+      award=True,
+      award_name="Oral & Spotlight"
 }
 
 @article{Philippakis-etal-2024-debruijn,
@@ -31,7 +35,8 @@
   url="https://arxiv.org/abs/2410.07622",
   month=oct,
   year="2024",
-  selected = {true}
+  selected = {true},
+  arxiv={2410.07622}
 }
 
 @inproceedings{mallinar-etal-2024-minimum,
@@ -43,7 +48,8 @@
     address = "Online",
     url = "https://arxiv.org/abs/2404.00522",
     abstract = "Transfer learning is a critical part of real-world machine learning deployments and has been extensively studied in experimental works with overparameterized neural networks. However, even in the simplest setting of linear regression a notable gap still exists in the theoretical understanding of transfer learning. In-distribution research on high-dimensional linear regression has led to the identification of a phenomenon known as \textit{benign overfitting}, in which linear interpolators overfit to noisy training labels and yet still generalize well. This behavior occurs under specific conditions on the source covariance matrix and input data dimension. Therefore, it is natural to wonder how such high-dimensional linear models behave under transfer learning. We prove the first non-asymptotic excess risk bounds for benignly-overfit linear interpolators in the transfer learning setting. From our analysis, we propose a taxonomy of \textit{beneficial} and \textit{malignant} covariate shifts based on the degree of overparameterization. We follow our analysis with empirical studies that show these beneficial and malignant covariate shifts for linear interpolators on real image data, and for fully-connected neural networks in settings where the input data dimension is larger than the training sample size.",
-    selected = {true}
+    selected = {true},
+    arxiv={2404.00522}
 }
 
 @inproceedings{mallinar-etal-2022-tempered,
@@ -55,7 +61,8 @@
     address = "Online",
     url = "https://arxiv.org/pdf/2207.06569",
     abstract = "The practical success of overparameterized neural networks has motivated the recent scientific study of interpolating methods, which perfectly fit their training data. Certain interpolating methods, including neural networks, can fit noisy training data without catastrophically bad test performance, in defiance of standard intuitions from statistical learning theory. Aiming to explain this, a body of recent work has studied $\textit{benign overfitting}$, a phenomenon where some interpolating methods approach Bayes optimality, even in the presence of noise. In this work we argue that while benign overfitting has been instructive and fruitful to study, many real interpolating methods like neural networks $\textit{do not fit benignly}$: modest noise in the training set causes nonzero (but non-infinite) excess risk at test time, implying these models are neither benign nor catastrophic but rather fall in an intermediate regime. We call this intermediate regime $\textit{tempered overfitting}$, and we initiate its systematic study. We first explore this phenomenon in the context of kernel (ridge) regression (KR) by obtaining conditions on the ridge parameter and kernel eigenspectrum under which KR exhibits each of the three behaviors. We find that kernels with powerlaw spectra, including Laplace kernels and ReLU neural tangent kernels, exhibit tempered overfitting. We then empirically study deep neural networks through the lens of our taxonomy, and find that those trained to interpolation are tempered, while those stopped early are benign. We hope our work leads to a more refined understanding of overfitting in modern learning",
-    selected = {true}
+    selected = {true},
+    arxiv={2207.06569}
 }
 
 
@@ -67,7 +74,8 @@
   url="https://arxiv.org/pdf/2210.01964",
   month=oct,
   year="2022",
-  selected = {false}
+  selected = {false},
+  arxiv={2210.01964}
 }
 
 @inproceedings{rennie-etal-2020-unsupervised,
@@ -86,7 +94,8 @@
     doi = "10.18653/v1/2020.emnlp-main.87",
     pages = "1148--1157",
     abstract = "BERT-era question answering systems have recently achieved impressive performance on several question-answering (QA) tasks. These systems are based on representations that have been pre-trained on self-supervised tasks such as word masking and sentence entailment, using massive amounts of data. Nevertheless, additional pre-training closer to the end-task, such as training on synthetic QA pairs, has been shown to improve performance. While recent work has considered augmenting labelled data and leveraging large unlabelled datasets to generate synthetic QA data, directly adapting to target data has received little attention. In this paper we investigate the iterative generation of synthetic QA pairs as a way to realize unsupervised self adaptation. Motivated by the success of the roundtrip consistency method for filtering generated QA pairs, we present iterative generalizations of the approach, which maximize an approximation of a lower bound on the probability of the adaptation data. By adapting on synthetic QA pairs generated on the target data, our method is able to improve QA systems significantly, using an order of magnitude less synthetic data and training computation than existing augmentation approaches.",
-    selected = {false}
+    selected = {false},
+    html={https://aclanthology.org/2020.emnlp-main.87}
 }
 
 
@@ -95,6 +104,7 @@
   volume = {34},
   copyright = {All rights reserved},
   url = {http://arxiv.org/abs/2002.01412},
+  arxiv = {2002.01412},
   abstract = {Real-world text classification tasks often require many labeled training examples that are expensive to obtain. Recent advancements in machine teaching, specifically the data programming paradigm, facilitate the creation of training data sets quickly via a general framework for building weak models, also known as labeling functions, and denoising them through ensemble learning techniques. We present a fast, simple data programming method for augmenting text data sets by generating neighborhood-based weak models with minimal supervision. Furthermore, our method employs an iterative procedure to identify sparsely distributed examples from large volumes of unlabeled data. The iterative data programming techniques improve newer weak models as more labeled data is confirmed with human-in-loop. We show empirical results on sentence classification tasks, including those from a task of improving intent recognition in conversational agents.},
   urldate = {2020-02-06},
   journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
@@ -135,6 +145,7 @@
   copyright = {All rights reserved},
   shorttitle = {Big-{Little} {Net}},
   url = {http://arxiv.org/abs/1807.03848},
+  arxiv={1807.03848},
   abstract = {In this paper, we propose a novel Convolutional Neural Network (CNN) architecture for learning multi-scale feature representations with good tradeoffs between speed and accuracy. This is achieved by using a multi-branch network, which has different computational complexity at different branches. Through frequent merging of features from branches at distinct scales, our model obtains multi-scale features while using less computation. The proposed approach demonstrates improvement of model efficiency and performance on both object recognition and speech recognition tasks,using popular architectures including ResNet and ResNeXt. For object recognition, our approach reduces computation by 33\% on object recognition while improving accuracy with 0.9\%. Furthermore, our model surpasses state-of-the-art CNN acceleration approaches by a large margin in accuracy and FLOPs reduction. On the task of speech recognition, our proposed multi-scale CNNs save 30\% FLOPs with slightly better word error rates, showing good generalization across domains. The codes are available at https://github.com/IBM/BigLittleNet},
   urldate = {2019-10-04},
   journal = {International Conference on Learning Representations},
@@ -150,7 +161,7 @@
       title={Multi-Frame Cross-Entropy Training for Convolutional Neural Networks in Speech Recognition},
       author={Tom Sercu and Neil Mallinar},
       year={2019},
-      eprint={1907.13121},
+      arxiv={1907.13121},
       archivePrefix={arXiv},
       primaryClass={eess.AS},
       url = {https://arxiv.org/abs/1907.13121},
@@ -170,6 +181,7 @@
   month = dec,
   year = {2018},
   note = {arXiv: 1812.06176},
+  arxiv={1812.06176},
   pages = {9528--9533},
   annote = {Comment: 6 pages, 3 figures, 1 table, Accepted for publication in IAAI 2019},
   file = {Mallinar et al_2018_Bootstrapping Conversational Agents With Weak Supervision.pdf:/Users/nmallinar/Google Drive/Research/ZoteroSync/Mallinar et al_2018_Bootstrapping Conversational Agents With Weak Supervision.pdf:application/pdf},
@@ -187,6 +199,7 @@
   month = jan,
   year = {2018},
   note = {arXiv: 1801.05407},
+  arxiv={1801.05407},
   annote = {Comment: 8 pages, 3 figures, accepted as the undergraduate honors thesis for Neil Mallinar by The Johns Hopkins University},
   file = {Mallinar_Rosset_2018_Deep Canonically Correlated LSTMs.pdf:/Users/nmallinar/Google Drive/Research/ZoteroSync/Mallinar_Rosset_2018_Deep Canonically Correlated LSTMs.pdf:application/pdf},
 }
@@ -205,6 +218,7 @@
   month = jul,
   year = {2017},
   note = {arXiv: 1706.09546},
+  arxiv={1706.09546},
   pages = {83--86},
   annote = {Comment: Accepted for publication in Astronomy and Computing, 6 pages, 3 figures},
   file = {Mallinar et al_2017_Probabilistic Cross-Identification of Galaxies with Realistic Clustering.pdf:/Users/nmallinar/Google Drive/Research/ZoteroSync/Mallinar et al_2017_Probabilistic Cross-Identification of Galaxies with Realistic Clustering.pdf:application/pdf},
