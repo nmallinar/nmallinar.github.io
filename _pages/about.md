@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: UC San Diego. Halıcıoğlu Data Science Institute. <a href="mailto:nmallina@ucsd.edu">nmallina@ucsd.edu</a>, <a href="mailto:nmallinar@gmail.com">nmallinar@gmail.com</a>.
+subtitle: UC San Diego. Halıcıoğlu Data Science Institute. <a href="mailto:nmallinar@gmail.com">nmallinar@gmail.com</a>, <a href="mailto:nmallina@ucsd.edu">nmallina@ucsd.edu</a>.
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 8 # leave blank to include all the news in the `_news` folder
+  limit: 4 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
