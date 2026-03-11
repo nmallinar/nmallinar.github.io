@@ -79,8 +79,11 @@ ninja.data = [{
           section: "News",},{id: "news-joined-google-research-mountain-view-as-a-phd-research-intern",
           title: 'Joined Google Research (Mountain View) as a PhD Research Intern',
           description: "",
-          section: "News",},{id: "news-we-got-an-oral-presentation-and-spotlight-poster-award-at-icml-2025-for-our-paper-emergence-in-non-neural-models-grokking-modular-arithmetic-via-average-gradient-outer-product",
-          title: 'We got an Oral presentation and Spotlight poster award at ICML 2025 for...',
+          section: "News",},{id: "news-we-got-an-oral-presentation-award-top-1-at-icml-2025-for-our-paper-emergence-in-non-neural-models-grokking-modular-arithmetic-via-average-gradient-outer-product",
+          title: 'We got an Oral presentation award (top 1%) at ICML 2025 for our...',
+          description: "",
+          section: "News",},{id: "news-excited-to-share-three-paper-acceptances-to-start-off-the-year-at-iclr-2026-aistats-2026-and-npj-digital-medicine-2026",
+          title: 'Excited to share three paper acceptances to start off the year at ICLR...',
           description: "",
           section: "News",},{
         id: 'social-email',
